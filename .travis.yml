@@ -3,4 +3,4 @@ compiler:
     - clang
     - gcc
 
-script: cmake . && make && ls -lah && testTravis
+script: cmake . && make && ls -lah && ./testTravis
